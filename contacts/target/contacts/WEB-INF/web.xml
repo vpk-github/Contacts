@@ -5,15 +5,15 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
-<!--   <servlet>
-    <servlet-name>ContactsController</servlet-name>
-    <servlet-class>com.agilecrm.ContactsController</servlet-class>
+  <servlet>
+    <servlet-name>firstServlet</servlet-name>
+    <servlet-class>agile.crm.contacts.ContactsControllerImp</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>ContactsController</servlet-name>
-    <url-pattern>/test</url-pattern>
-  </servlet-mapping>   -->
+    <servlet-name>firstServlet</servlet-name>
+    <url-pattern>/Contacts</url-pattern>
+  </servlet-mapping>  
 
 </web-app>
 
